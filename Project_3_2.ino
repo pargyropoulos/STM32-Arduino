@@ -76,7 +76,7 @@ void TrafficLightTimeKeeper_ISR(){
 
 void setup(){
   Serial.begin(9600);
-  delay(1200); //add a small delay for RS232 to sync
+  delay(1500); //add a small delay for RS232 to sync
   pinMode(LED_PIN,OUTPUT);
   pinMode(BUTTON_PIN, INPUT);
   //Set PA0 to PA6 as output and PA7 as is input
